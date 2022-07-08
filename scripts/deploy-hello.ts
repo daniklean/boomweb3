@@ -10,7 +10,6 @@ async function deployment() {
 }
 
 // @ts-ignore
-
 async function sayHello(hello) {
    console.log("Say Hello Contract", await hello.hello()) ;
 }
