@@ -1,7 +1,6 @@
 {
   "name": "boomweb3",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Luis Daniel <danielvieras10@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -18,4 +17,4 @@
     "ts-node": "^10.8.2",
     "typescript": "^4.7.4"
   }
-}
+}  
