@@ -14,8 +14,8 @@ contract Counter {
         return counter;
     }
 
-    function view() view pure returns (uint) 
+    function views() public view returns (uint32) 
     {
-        return counter;
+        return uint32(counter);
     }
 }
