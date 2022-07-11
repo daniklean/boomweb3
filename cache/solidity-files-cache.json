@@ -37,8 +37,8 @@
       ]
     },
     "C:\\Users\\Raidani\\Desktop\\boomweb3\\contracts\\Counter.sol": {
-      "lastModificationDate": 1657437035113,
-      "contentHash": "c89c2869b44b837ba297e3d43abf1536",
+      "lastModificationDate": 1657498867975,
+      "contentHash": "f8ba329e62260d43464f814f9ad4b201",
       "sourceName": "contracts/Counter.sol",
       "solcConfig": {
         "version": "0.8.10",
