@@ -1,5 +1,8 @@
 import "@nomiclabs/hardhat-waffle";
 import "@nomiclabs/hardhat-ethers";
+import "hardhat-gas-reporter"
+import dotenv from "dotenv";
+dotenv.config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -7,6 +10,10 @@ module.exports = {
   networks: {
     hardhat: {
       chainId: 1337
-    }
+    },
+    rinkeby: {
+      url:`https://eth-rinkeby.alchemyapi.io/v2/${process.env.ALCHEMY_API_KEY}`,
+      accounts:[`${process.env.RINKEBY_KEY}`],
+    },
   }
 };

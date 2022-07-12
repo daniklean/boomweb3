@@ -107,6 +107,41 @@
       "artifacts": [
         "console"
       ]
+    },
+    "C:\\Users\\Raidani\\Desktop\\boomweb3\\contracts\\TestReport.sol": {
+      "lastModificationDate": 1657642144144,
+      "contentHash": "7994bb7e30f634208461c101177d1df5",
+      "sourceName": "contracts/TestReport.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TestReport"
+      ]
     }
   }
 }
